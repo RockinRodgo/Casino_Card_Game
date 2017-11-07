@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9932EECD1FAC6F7F00D4E02F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932EECC1FAC6F7F00D4E02F /* AppDelegate.swift */; };
+		9932EECF1FAC6F7F00D4E02F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932EECE1FAC6F7F00D4E02F /* ViewController.swift */; };
+		9932EED21FAC6F7F00D4E02F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9932EED01FAC6F7F00D4E02F /* Main.storyboard */; };
+		9932EED41FAC6F7F00D4E02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9932EED31FAC6F7F00D4E02F /* Assets.xcassets */; };
+		9932EED71FAC6F7F00D4E02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9932EED51FAC6F7F00D4E02F /* LaunchScreen.storyboard */; };
+		9932EEE21FAC6F7F00D4E02F /* Casino_Card_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932EEE11FAC6F7F00D4E02F /* Casino_Card_GameTests.swift */; };
+		9932EEED1FAC6F7F00D4E02F /* Casino_Card_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932EEEC1FAC6F7F00D4E02F /* Casino_Card_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9932EEDE1FAC6F7F00D4E02F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9932EEC11FAC6F7F00D4E02F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9932EEC81FAC6F7F00D4E02F;
+			remoteInfo = Casino_Card_Game;
+		};
+		9932EEE91FAC6F7F00D4E02F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9932EEC11FAC6F7F00D4E02F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9932EEC81FAC6F7F00D4E02F;
+			remoteInfo = Casino_Card_Game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9932EEC91FAC6F7F00D4E02F /* Casino_Card_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casino_Card_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9932EECC1FAC6F7F00D4E02F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9932EECE1FAC6F7F00D4E02F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9932EED11FAC6F7F00D4E02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9932EED31FAC6F7F00D4E02F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9932EED61FAC6F7F00D4E02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9932EED81FAC6F7F00D4E02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9932EEDD1FAC6F7F00D4E02F /* Casino_Card_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Casino_Card_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9932EEE11FAC6F7F00D4E02F /* Casino_Card_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casino_Card_GameTests.swift; sourceTree = "<group>"; };
+		9932EEE31FAC6F7F00D4E02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9932EEE81FAC6F7F00D4E02F /* Casino_Card_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Casino_Card_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9932EEEC1FAC6F7F00D4E02F /* Casino_Card_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casino_Card_GameUITests.swift; sourceTree = "<group>"; };
+		9932EEEE1FAC6F7F00D4E02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9932EEC61FAC6F7F00D4E02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9932EEDA1FAC6F7F00D4E02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9932EEE51FAC6F7F00D4E02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9932EEC01FAC6F7F00D4E02F = {
+			isa = PBXGroup;
+			children = (
+				9932EECB1FAC6F7F00D4E02F /* Casino_Card_Game */,
+				9932EEE01FAC6F7F00D4E02F /* Casino_Card_GameTests */,
+				9932EEEB1FAC6F7F00D4E02F /* Casino_Card_GameUITests */,
+				9932EECA1FAC6F7F00D4E02F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9932EECA1FAC6F7F00D4E02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9932EEC91FAC6F7F00D4E02F /* Casino_Card_Game.app */,
+				9932EEDD1FAC6F7F00D4E02F /* Casino_Card_GameTests.xctest */,
+				9932EEE81FAC6F7F00D4E02F /* Casino_Card_GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9932EECB1FAC6F7F00D4E02F /* Casino_Card_Game */ = {
+			isa = PBXGroup;
+			children = (
+				9932EECC1FAC6F7F00D4E02F /* AppDelegate.swift */,
+				9932EECE1FAC6F7F00D4E02F /* ViewController.swift */,
+				9932EED01FAC6F7F00D4E02F /* Main.storyboard */,
+				9932EED31FAC6F7F00D4E02F /* Assets.xcassets */,
+				9932EED51FAC6F7F00D4E02F /* LaunchScreen.storyboard */,
+				9932EED81FAC6F7F00D4E02F /* Info.plist */,
+			);
+			path = Casino_Card_Game;
+			sourceTree = "<group>";
+		};
+		9932EEE01FAC6F7F00D4E02F /* Casino_Card_GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				9932EEE11FAC6F7F00D4E02F /* Casino_Card_GameTests.swift */,
+				9932EEE31FAC6F7F00D4E02F /* Info.plist */,
+			);
+			path = Casino_Card_GameTests;
+			sourceTree = "<group>";
+		};
+		9932EEEB1FAC6F7F00D4E02F /* Casino_Card_GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9932EEEC1FAC6F7F00D4E02F /* Casino_Card_GameUITests.swift */,
+				9932EEEE1FAC6F7F00D4E02F /* Info.plist */,
+			);
+			path = Casino_Card_GameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9932EEC81FAC6F7F00D4E02F /* Casino_Card_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9932EEF11FAC6F7F00D4E02F /* Build configuration list for PBXNativeTarget "Casino_Card_Game" */;
+			buildPhases = (
+				9932EEC51FAC6F7F00D4E02F /* Sources */,
+				9932EEC61FAC6F7F00D4E02F /* Frameworks */,
+				9932EEC71FAC6F7F00D4E02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Casino_Card_Game;
+			productName = Casino_Card_Game;
+			productReference = 9932EEC91FAC6F7F00D4E02F /* Casino_Card_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9932EEDC1FAC6F7F00D4E02F /* Casino_Card_GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9932EEF41FAC6F7F00D4E02F /* Build configuration list for PBXNativeTarget "Casino_Card_GameTests" */;
+			buildPhases = (
+				9932EED91FAC6F7F00D4E02F /* Sources */,
+				9932EEDA1FAC6F7F00D4E02F /* Frameworks */,
+				9932EEDB1FAC6F7F00D4E02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9932EEDF1FAC6F7F00D4E02F /* PBXTargetDependency */,
+			);
+			name = Casino_Card_GameTests;
+			productName = Casino_Card_GameTests;
+			productReference = 9932EEDD1FAC6F7F00D4E02F /* Casino_Card_GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9932EEE71FAC6F7F00D4E02F /* Casino_Card_GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9932EEF71FAC6F7F00D4E02F /* Build configuration list for PBXNativeTarget "Casino_Card_GameUITests" */;
+			buildPhases = (
+				9932EEE41FAC6F7F00D4E02F /* Sources */,
+				9932EEE51FAC6F7F00D4E02F /* Frameworks */,
+				9932EEE61FAC6F7F00D4E02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9932EEEA1FAC6F7F00D4E02F /* PBXTargetDependency */,
+			);
+			name = Casino_Card_GameUITests;
+			productName = Casino_Card_GameUITests;
+			productReference = 9932EEE81FAC6F7F00D4E02F /* Casino_Card_GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9932EEC11FAC6F7F00D4E02F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Adam Rogers";
+				TargetAttributes = {
+					9932EEC81FAC6F7F00D4E02F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					9932EEDC1FAC6F7F00D4E02F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9932EEC81FAC6F7F00D4E02F;
+					};
+					9932EEE71FAC6F7F00D4E02F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9932EEC81FAC6F7F00D4E02F;
+					};
+				};
+			};
+			buildConfigurationList = 9932EEC41FAC6F7F00D4E02F /* Build configuration list for PBXProject "Casino_Card_Game" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9932EEC01FAC6F7F00D4E02F;
+			productRefGroup = 9932EECA1FAC6F7F00D4E02F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9932EEC81FAC6F7F00D4E02F /* Casino_Card_Game */,
+				9932EEDC1FAC6F7F00D4E02F /* Casino_Card_GameTests */,
+				9932EEE71FAC6F7F00D4E02F /* Casino_Card_GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9932EEC71FAC6F7F00D4E02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9932EED71FAC6F7F00D4E02F /* LaunchScreen.storyboard in Resources */,
+				9932EED41FAC6F7F00D4E02F /* Assets.xcassets in Resources */,
+				9932EED21FAC6F7F00D4E02F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9932EEDB1FAC6F7F00D4E02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9932EEE61FAC6F7F00D4E02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9932EEC51FAC6F7F00D4E02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9932EECF1FAC6F7F00D4E02F /* ViewController.swift in Sources */,
+				9932EECD1FAC6F7F00D4E02F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9932EED91FAC6F7F00D4E02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9932EEE21FAC6F7F00D4E02F /* Casino_Card_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9932EEE41FAC6F7F00D4E02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9932EEED1FAC6F7F00D4E02F /* Casino_Card_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9932EEDF1FAC6F7F00D4E02F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9932EEC81FAC6F7F00D4E02F /* Casino_Card_Game */;
+			targetProxy = 9932EEDE1FAC6F7F00D4E02F /* PBXContainerItemProxy */;
+		};
+		9932EEEA1FAC6F7F00D4E02F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9932EEC81FAC6F7F00D4E02F /* Casino_Card_Game */;
+			targetProxy = 9932EEE91FAC6F7F00D4E02F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9932EED01FAC6F7F00D4E02F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9932EED11FAC6F7F00D4E02F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9932EED51FAC6F7F00D4E02F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9932EED61FAC6F7F00D4E02F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9932EEEF1FAC6F7F00D4E02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9932EEF01FAC6F7F00D4E02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9932EEF21FAC6F7F00D4E02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Casino_Card_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adam.Casino-Card-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9932EEF31FAC6F7F00D4E02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Casino_Card_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adam.Casino-Card-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9932EEF51FAC6F7F00D4E02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Casino_Card_GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adam.Casino-Card-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Casino_Card_Game.app/Casino_Card_Game";
+			};
+			name = Debug;
+		};
+		9932EEF61FAC6F7F00D4E02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Casino_Card_GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adam.Casino-Card-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Casino_Card_Game.app/Casino_Card_Game";
+			};
+			name = Release;
+		};
+		9932EEF81FAC6F7F00D4E02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Casino_Card_GameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adam.Casino-Card-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Casino_Card_Game;
+			};
+			name = Debug;
+		};
+		9932EEF91FAC6F7F00D4E02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Casino_Card_GameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Adam.Casino-Card-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Casino_Card_Game;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9932EEC41FAC6F7F00D4E02F /* Build configuration list for PBXProject "Casino_Card_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9932EEEF1FAC6F7F00D4E02F /* Debug */,
+				9932EEF01FAC6F7F00D4E02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9932EEF11FAC6F7F00D4E02F /* Build configuration list for PBXNativeTarget "Casino_Card_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9932EEF21FAC6F7F00D4E02F /* Debug */,
+				9932EEF31FAC6F7F00D4E02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9932EEF41FAC6F7F00D4E02F /* Build configuration list for PBXNativeTarget "Casino_Card_GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9932EEF51FAC6F7F00D4E02F /* Debug */,
+				9932EEF61FAC6F7F00D4E02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9932EEF71FAC6F7F00D4E02F /* Build configuration list for PBXNativeTarget "Casino_Card_GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9932EEF81FAC6F7F00D4E02F /* Debug */,
+				9932EEF91FAC6F7F00D4E02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9932EEC11FAC6F7F00D4E02F /* Project object */;
+}
